@@ -13,11 +13,6 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://git.facorazza.com/facorazza/n2yo-aio',
     packages=setuptools.find_packages(),
-    install_requires=[
-        'cchardet==2.1.6',
-        'aiodns==2.0.0',
-        'aiohttp==3.6.2'
-    ],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
