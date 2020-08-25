@@ -1,5 +1,7 @@
 # n2yo-aio
 
+[![Build Status](https://drone.facorazza.com/api/badges/facorazza/n2yo-aio/status.svg)](https://drone.facorazza.com/facorazza/n2yo-aio)
+
 Asynchronous Python wrapper for the N2YO API.
 
 ## Installation
