@@ -14,7 +14,7 @@ steps:
 
 - name: upload
   image: plugins/pypi
-  environment:
+  settings:
     username:
       from_secret: username
     password:
