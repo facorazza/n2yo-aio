@@ -22,4 +22,4 @@ steps:
   commands:
     - pip install --user --upgrade setuptools wheel twine
     - python setup.py sdist bdist_wheel
-    - python -m twine upload -u $USERNAME -p $PASSWORD --repository testpypi dist/*
+    - python -m twine upload -u $pypi_username -p $pypi_password --repository testpypi dist/*
