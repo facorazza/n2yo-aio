@@ -13,13 +13,9 @@ steps:
     - bandit -r n2yo
 
 - name: upload
-  image: python
+  image: plugins/pypi
   environment:
-    pypi_username:
+    username:
       from_secret: username
-    pypi_password:
+    password:
       from_secret: password
-  commands:
-    - pip install --user --upgrade setuptools wheel twine
-    - python setup.py sdist bdist_wheel
-    - python -m twine upload -u $pypi_username -p $pypi_password --repository testpypi dist/*
