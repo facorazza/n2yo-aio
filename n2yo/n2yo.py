@@ -97,7 +97,7 @@ class N2YO:
             positions.append([
                 pos['satlatitude'],
                 pos['satlongitude'],
-                pos['satlaltitude']
+                pos['sataltitude']
             ])
             azels.append([pos['azimuth'], pos['elevation']])
             radecs.append([pos['ra'], pos['dec']])
